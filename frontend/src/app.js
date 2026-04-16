@@ -26,8 +26,7 @@ products.forEach(p => {
 
 async function checkout(productId) {
     const response = await fetch(`${API_BASE_URL}/create-checkout-session`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        method: 'POST',        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
             items: [{ id: productId, quantity: 1 }],
             customer_email: 'julesjospinhongongang18@gmail.com'

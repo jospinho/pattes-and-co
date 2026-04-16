@@ -1,10 +1,6 @@
 {
   "name": "pattes-and-co-frontend",
   "version": "1.0.0",
-  "scripts": {
-    "start": "serve -s .",
-    "build": "echo 'No build step needed for simple US config'"
-  },
   "dependencies": {
     "serve": "^14.2.0"
   }
